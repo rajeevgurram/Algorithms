@@ -2,9 +2,9 @@ package DataStructures.BlockingQueue;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        BlockingQueue<Integer> queue = new ArrayBlockingQueue<>();
+        BlockingQueue<Integer> queue = new ArrayBlockingQueueSynchronized<>();
 
-        Thread producerThread = new Thread(new Producer(queue, 3000));
+        Thread producerThread = new Thread(new Producer(queue, 30));
         Thread consumerThread = new Thread(new Consumer(queue, 2000));
 
         producerThread.start();
