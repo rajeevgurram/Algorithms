@@ -1,4 +1,4 @@
-package Challenges;
+package Challenges.MergeArrays;
 
 import java.util.PriorityQueue;
 

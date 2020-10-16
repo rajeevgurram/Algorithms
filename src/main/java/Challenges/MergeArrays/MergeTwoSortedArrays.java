@@ -1,4 +1,4 @@
-package Challenges;
+package Challenges.MergeArrays;
 
 public class MergeTwoSortedArrays {
     public static void main(String[] args) {
